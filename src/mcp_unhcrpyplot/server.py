@@ -64,12 +64,16 @@ def create_server():
             # Return the image as base64
             image_base64 = base64.b64encode(response.content).decode('utf-8')
             
+            # Create Markdown format for clients that can render images
+            markdown_preview = f"![{title}](data:image/png;base64,{image_base64})"
+            
             return {
                 "status": "success",
                 "chart_type": chart_type,
                 "title": title,
                 "image_base64": image_base64,
                 "image_format": "png",
+                "markdown_preview": markdown_preview,
                 "message": f"Successfully generated {chart_type} chart: {title}"
             }
             
