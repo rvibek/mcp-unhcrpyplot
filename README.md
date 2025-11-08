@@ -4,6 +4,9 @@ This MCP (Model Context Protocol) server in smithery.ai provides tools for gener
 
 This server interacts with the [UNHCR Chart Generation API](https://unhcrpyplot.rvibek.com.np/plot).
 
+[![smithery badge](https://smithery.ai/badge/@rvibek/mcp-unhcrpyplot)](https://smithery.ai/server/@rvibek/mcp-unhcrpyplot)
+[![smithery badge](https://smithery.ai/badge/@rvibek/mcp_unhcrpyplot)](https://smithery.ai/server/@rvibek/mcp_unhcrpyplot)
+
 ## Features
 
 - Generate various types of charts (bar, line, pie, scatter) with UNHCR data
@@ -18,8 +21,6 @@ To access the server, open your web browser and visit the following URL:
 [https://smithery.ai/server/@rvibek/mcp_unhcrpyplot](https://smithery.ai/server/@rvibek/mcp_unhcrpyplot)
 
 Configure the MCP host/client as needed.
-
-[![smithery badge](https://smithery.ai/badge/@rvibek/mcp_unhcrpyplot)](https://smithery.ai/server/@rvibek/mcp_unhcrpyplot)
 
 ## API Endpoint
 
