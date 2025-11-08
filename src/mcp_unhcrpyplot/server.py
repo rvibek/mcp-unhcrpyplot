@@ -71,7 +71,7 @@ def create_server():
                 "status": "success",
                 "chart_type": chart_type,
                 "title": title,
-                "image_base64": image_base64,
+                # "image_base64": image_base64,
                 "image_format": "png",
                 "markdown_preview": markdown_preview,
                 "message": f"Successfully generated {chart_type} chart: {title}"
